@@ -114,20 +114,6 @@ export default function AddPaymentScreen() {
           </View>
         </TouchableOpacity>
 
-        {/*{showDatePicker && (*/}
-        {/*  <DateTimePicker*/}
-        {/*    value={dueDate}*/}
-        {/*    mode="date"*/}
-        {/*    display={Platform.OS === 'ios' ? 'spinner' : 'default'}*/}
-        {/*    onChange={(event, selectedDate) => {*/}
-        {/*      setShowDatePicker(Platform.OS === 'ios');*/}
-        {/*      if (selectedDate) {*/}
-        {/*        setDueDate(selectedDate);*/}
-        {/*      }*/}
-        {/*    }}*/}
-        {/*    minimumDate={new Date()}*/}
-        {/*  />*/}
-        {/*)}*/}
         {showDatePicker && (
             <View style={Platform.OS === 'ios' && {
               backgroundColor: theme.surface,

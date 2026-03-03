@@ -10,6 +10,7 @@ export interface Theme {
   border: string;
   success: string;
   warning: string;
+  id?: string;
   error: string;
   info: string;
   gradient: string[];
